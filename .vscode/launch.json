@@ -1,0 +1,118 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "BS2D",
+            "request": "launch",
+            "mainClass": "BS2D",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "Basic",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "FuncOverload",
+            "request": "launch",
+            "mainClass": "FuncOverload",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "Functions",
+            "request": "launch",
+            "mainClass": "Functions",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "LOOPS",
+            "request": "launch",
+            "mainClass": "LOOPS",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "Linear_search",
+            "request": "launch",
+            "mainClass": "Linear_search",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "Questions",
+            "request": "launch",
+            "mainClass": "Questions",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "Bubble_Sort",
+            "request": "launch",
+            "mainClass": "Sorting.Bubble_Sort",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "CycleSort",
+            "request": "launch",
+            "mainClass": "Sorting.CycleSort",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "Sorting.InsertionSort",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "Sorting.SelectionSort",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "Switch",
+            "request": "launch",
+            "mainClass": "Switch",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "VarArgs",
+            "request": "launch",
+            "mainClass": "VarArgs",
+            "projectName": "JAVA_72d9c41b"
+        }
+    ]
+}
