@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CyclicSort442",
+            "request": "launch",
+            "mainClass": "Leetcode.CyclicSort442",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "CyclicSort287",
+            "request": "launch",
+            "mainClass": "Leetcode.CyclicSort287",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
