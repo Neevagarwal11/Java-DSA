@@ -4,8 +4,13 @@ package Leetcode;
 
 public class CyclicSort41 {
 
+    public static void main(String[] args) {
+        int[] arr ={3,4,-1,1};
+        System.out.println(firstMissingPositive(arr));
+    }
 
-    public int firstMissingPositive(int[] nums) {
+
+    public static int firstMissingPositive(int[] nums) {
         int i=0;
         while(i<nums.length){
             int correct= nums[i] -1;
@@ -27,7 +32,7 @@ public class CyclicSort41 {
         
     }
 
-    void swap(int[] arr , int first , int second){
+    static void swap(int[] arr , int first , int second){
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
