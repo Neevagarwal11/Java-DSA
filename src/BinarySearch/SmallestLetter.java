@@ -1,4 +1,4 @@
-
+package BinarySearch;
 // -------------------->LeetCode 744 Problem: Find Smallest Letter Greater Than Target
 public class SmallestLetter {
    

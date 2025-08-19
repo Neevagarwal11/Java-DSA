@@ -1,4 +1,4 @@
-
+    
 
 public class FirstandLastPosition {
     public int[] searchRange(int[] nums, int target) {
