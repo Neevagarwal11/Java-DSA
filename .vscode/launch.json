@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringJava",
+            "request": "launch",
+            "mainClass": "StringJava",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "String",
+            "request": "launch",
+            "mainClass": "String",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch162",
+            "request": "launch",
+            "mainClass": "BinarySearch.Leetcode.BinarySearch162",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
             "name": "BinarySearch1482",
             "request": "launch",
             "mainClass": "BinarySearch.Leetcode.BinarySearch1482",

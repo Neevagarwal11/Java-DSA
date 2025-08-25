@@ -29,10 +29,10 @@ public class Functions {
         System.out.println("Sum = " + sum);
     }
 
-    static String greet(){
-        String greeting = "This is a string return";
-        return greeting;
-    }
+    // static String greet(){
+    //     // String greeting = "This is a string return";
+    //     // return greeting;
+    // }
 
 
     //With Parameters

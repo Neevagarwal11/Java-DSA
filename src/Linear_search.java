@@ -135,18 +135,18 @@ public class Linear_search {
 
     //Search in String
 
-    static boolean stringsearch(String str , char search){
-        if(str.length() == 0){
-            return false;
-        }
-        for (int i = 0; i < str.length(); i++) {
-            if(search == str.charAt(i)){
-                return true;
-            }
-        }
+    // static boolean stringsearch(String str , char search){
+    //     if(str.length() == 0){
+    //         return false;
+    //     }
+    //     for (int i = 0; i < str.length(); i++) {
+    //         if(search == str.charAt(i)){
+    //             return true;
+    //         }
+    //     }
 
-        return false;
-    }
+    //     return false;
+    // }
 
 
     //search in array
