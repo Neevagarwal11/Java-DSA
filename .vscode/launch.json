@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinarySearch153",
+            "request": "launch",
+            "mainClass": "BinarySearch.Leetcode.BinarySearch153",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
             "name": "BinarySearch74",
             "request": "launch",
             "mainClass": "BinarySearch.Leetcode.BinarySearch74",
