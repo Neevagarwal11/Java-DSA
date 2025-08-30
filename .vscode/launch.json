@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Leetcode33",
+            "request": "launch",
+            "mainClass": "BinarySearch.Leetcode.Leetcode33",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
             "name": "LC75Insertion",
             "request": "launch",
             "mainClass": "Sorting.leetcode.LC75Insertion",
