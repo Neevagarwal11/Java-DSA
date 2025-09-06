@@ -112,7 +112,6 @@ public class StringJava {
             System.out.println();
 
         }
-
         // *
         // * *
         // * * *
@@ -122,6 +121,16 @@ public class StringJava {
         // * * *
         // * *
         // *
+    }
+
+    static void pattern5(int n ){
+        for(int row =0 ; row<2*n ; row++){
+
+            int totalColsInRow = row>n ? 2*n -row : row; 
+
+
+
+        }
     }
 
 
