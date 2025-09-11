@@ -9,7 +9,7 @@ public class LC3457{
 
     public long maxWeight(int[] pizzas) {
 
-        Arrays.sort(pizzas);
+        Arrays.sort(pizzas);    //Array is sorted
 
         int size = pizzas.length;
         int totalDays = size/4;
@@ -18,18 +18,21 @@ public class LC3457{
         long maxTotalWeight = 0;
 
         for(int day = 1 ; day<=totalDays ; day+=2){     //For odd days 
-            maxTotalWeight += pizzas[currentIndex--];
+            maxTotalWeight += pizzas[currentIndex--];   //For odd days the heaviest pizza is taken into account
         }
+        currentIndex--; 
 
-        currentIndex--;
-        for(int day =2 ; day <= totalDays; day+=2){
-            maxTotalWeight += pizzas[currentIndex];
+        for(int day =2 ; day <= totalDays; day+=2){     //For Even days
+            maxTotalWeight += pizzas[currentIndex];     //For even days the 2nd heaviest pizza is taken into account
             currentIndex -=2;
         }
 
         return maxTotalWeight;
 
     }
+
+
+
 
 
     

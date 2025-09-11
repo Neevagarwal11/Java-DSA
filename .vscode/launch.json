@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LC179",
+            "request": "launch",
+            "mainClass": "Sorting.leetcode.LC179",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
             "name": "LC56",
             "request": "launch",
             "mainClass": "Sorting.leetcode.LC56",
