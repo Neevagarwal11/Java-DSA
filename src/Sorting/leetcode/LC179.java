@@ -27,6 +27,7 @@ public class LC179 {
         for(String str :s ){
             sb.append(str);
         }
+        
         String result = sb.toString();
         return result.startsWith("0") ? "0" : result;
 
