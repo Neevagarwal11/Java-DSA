@@ -34,6 +34,8 @@ public class recursion {
 
         if(s>e){
             return -1; 
+
+            
         }
         int m = s+ (e-s)/2;
         if(arr[m] == target){
