@@ -41,7 +41,7 @@ public class recursion {
         if(arr[m] == target){
             return m;
         }
-        if(target < arr[m]){
+        if(target < arr[m]){ 
             return search(arr , target , s , m-1);
         }
         return search(arr , target , m+1 , e);
