@@ -1,4 +1,3 @@
-package Recursion.Leetcode;
 
 public class LC1342 {
 
@@ -16,7 +15,7 @@ public class LC1342 {
         if(num%2==0){
             return helper(num/2 , steps+1);
         }
-        return helper(num-1 , steps+1)
+        return helper(num-1 , steps+1);
 
     }
 

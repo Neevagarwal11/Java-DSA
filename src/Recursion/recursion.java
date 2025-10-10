@@ -93,6 +93,20 @@ public class recursion {
     }
 
 
+    static int linearSearch(int[] arr , int target , int index ){
+        if(index == arr.length){
+            return -1;
+        }
+
+        if(arr[index]== target){
+            return index;
+        }else{
+            return linearSearch(arr, target, index+1);
+        }
+
+    }
+
+
 
 
     
