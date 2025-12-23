@@ -1,5 +1,8 @@
 package Recursion;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 //This uses a  stack memory where all the funtions that are called are stored in the stack until the base condition is met.
 
 //To identify if recursion can be used , check if the problem can be broken into smaller subproblems.
@@ -15,12 +18,40 @@ public class recursion {
 
 
         //Binary Search
-        // int[] arr = {1,3,5,6,8,9,11,15};
+        int[] arr = {1,3,5,6,8,9,11,15};
         // System.out.println(search(arr ,3, 0 , arr.length -1));        
         
+        // Rotated Binary Search 
+        // System.out.println(searchRotated(arr, 9, 0, arr.length-1));
 
         // Reverse a number
-        System.out.println(rev2(1234));
+        // System.out.println(rev2(1234));
+
+
+        // In ArrayList
+        ArrayList<Integer> ans = findAllIndex2(arr, 5, 0);
+        // System.out.println(findAllIndex2(arr, 5, 0));
+
+
+
+        // Pattern 1 
+        pattern1(4, 0);
+
+        // Pattern 2
+        pattern2(4, 0);
+
+
+        // Bubble Sort
+        int[] arr2 ={4,2,3,1};
+        bubble(arr2 , arr2.length-1 , 0);
+        // System.out.println(Arrays.toString(arr2));
+
+
+        // Selection Sort
+        int[] arr3 = {4,3,2,1};
+        selection(arr3, arr3.length, 0, 0);
+        System.out.println(Arrays.toString(arr3));
+
 
 
     }
@@ -107,6 +138,152 @@ public class recursion {
     }
 
 
+    // In a ArrayList
+
+    static ArrayList<Integer> findAllIndex(int[] arr , int target , int index , ArrayList<Integer> list){
+        if(index == arr.length){
+            return list;
+        }
+
+        if(arr[index] == target){
+            list.add(index);
+        }
+
+        return findAllIndex(arr, target, index+1 , list);
+    }
+
+
+    // without passing ArrayList in parameter       ---------Not very optimized as new ArrayList is been made in each recursion call. 
+    static ArrayList<Integer> findAllIndex2(int[] arr , int target , int index){
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+
+        if(index == arr.length){
+            return list;
+        }
+
+
+        if(arr[index] == target){
+            list.add(index);
+        }
+
+        ArrayList<Integer> ansFromBelow = findAllIndex2(arr, target, index+1);    //In this the list coming from below carries the the answers from the above steps if there is any.
+
+        list.addAll(ansFromBelow);
+
+        return list;
+
+    }
+
+
+
+    // Rotated Binary Search
+    static int searchRotated(int[] arr ,int target , int s , int e){
+        if(s>e){
+            return -1;
+        }
+
+        int m = s + (e-s)/2;
+        if(arr [m] == target){
+            return m;
+        }
+
+        if(arr[s] <= arr[m]){
+            if(target >=arr[s] && target <= arr[m]){
+                return searchRotated(arr,target,s,m-1);
+            }else{
+                return searchRotated(arr,target,m+1,e);
+            }
+        }
+
+        if(target >= arr[m] && target <= arr[e]){
+            return searchRotated(arr, target , m+1 ,e);
+        }
+        
+        return searchRotated(arr, target , s ,m-1);
+
+
+    }
+
+
+
+    static void pattern1(int r , int c){
+        if (r ==0){
+            return;
+        }
+        if(c<r){
+            System.out.print('*');
+            pattern1(r, c+1);
+        }else{
+            System.out.println();
+            pattern1(r-1, 0);
+        }
+
+    }
+
+    
+    static void pattern2(int r , int c){
+        if (r ==0){
+            return;
+        }
+        if(c<r){
+            pattern2(r, c+1);
+            System.out.print('*');
+        }else{
+            pattern2(r-1, 0);
+            System.out.println();
+        }
+
+    }
+
+
+    // Bubble Sort
+
+    static  void bubble(int[] arr, int r , int c){
+        if(r==0){
+            return;
+        }
+        if(c<r){
+
+            if(arr[c] > arr[c+1]){
+                int temp = arr[c];
+                arr[c] =arr[c+1];
+                arr[c+1] = temp;
+            }
+
+            bubble(arr, r, c+1);
+        }else{
+            bubble(arr , r-1 , 0);
+        }
+
+    }
+
+
+
+    // Selection Sort
+
+    static void selection(int[] arr , int r , int c , int max){
+
+        if(r ==0){
+            return;
+        }
+
+        if(c<r){
+            if(arr[c] > arr[max]){
+                selection(arr, r, c+1, c);
+            }else{
+                selection(arr, r, c+1, max);
+            }
+        }else{
+            int temp = arr[max];
+            arr[max] = arr[r-1];
+            arr[r-1] = temp; 
+            selection(arr, r-1, 0, 0);
+        }
+
+
+    }
 
 
     
