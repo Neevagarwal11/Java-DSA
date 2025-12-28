@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "string",
+            "request": "launch",
+            "mainClass": "Recursion.string",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
             "name": "LC611",
             "request": "launch",
             "mainClass": "Sorting.leetcode.LC611",
