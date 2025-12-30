@@ -1,6 +1,7 @@
 package Recursion;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class string {
 
@@ -15,7 +16,21 @@ public class string {
         // ------------->Subsequence
 
         // System.out.println(subseqList("", "abc"));
-        subsqAcii("", "abc");
+        // subsqAcii("", "abc");
+
+
+        // int[] arr = {1,2,3};
+        // List<List<Integer>>  ans = subset(arr);
+        // for(List<Integer> list : ans){
+        //     System.out.println(list);
+        // } 
+
+
+
+        //-------------->Permutations
+
+        permutations("", "abc");
+
         
     }
 
@@ -116,7 +131,51 @@ public class string {
         subsqAcii( p , up.substring(1));
     }
 
-    
+    // ---------------->Using Iterative Method
+
+    static List<List<Integer>> subset(int[] arr){
+
+        List<List<Integer>> outer = new ArrayList<>();
+
+        outer.add(new ArrayList<>());
+
+        for(int num : arr){
+            int n =outer.size();
+            for(int i=0 ; i<n ; i++){
+                List<Integer> internal = new ArrayList<>(outer.get(i));
+                internal.add(num);
+                outer.add(internal);
+            }
+        }
+
+        return outer;
+
+    }
+
+
+    //---------------------------------->Permutations
+
+    static void permutations(String p , String up){
+
+        if(up.isEmpty()){
+            System.out.println(p);
+            return;
+        }
+
+        char ch = up.charAt(0); 
+
+        for (int i = 0; i <= p.length() ; i++) {
+            String f = p.substring(0, i);
+            String s = p.substring(i , p.length());
+            permutations(f + ch + s, up.substring(1));
+            
+        }
+
+
+
+
+    }
+
 
     
 }

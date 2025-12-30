@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LC17",
+            "request": "launch",
+            "mainClass": "LC17",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
             "name": "string",
             "request": "launch",
             "mainClass": "Recursion.string",
