@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Nqueen",
+            "request": "launch",
+            "mainClass": "Nqueen",
+            "projectName": "JAVA_72d9c41b"
+        },
+        {
+            "type": "java",
             "name": "maze",
             "request": "launch",
             "mainClass": "maze",
