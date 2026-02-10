@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "classesnObjects",
+            "request": "launch",
+            "mainClass": "OOPs.classesnObjects",
+            "projectName": "Java-DSA_2e2ca0ad"
+        },
+        {
+            "type": "java",
+            "name": "classesNobjects",
+            "request": "launch",
+            "mainClass": "OOPs.classesNobjects",
+            "projectName": "Java-DSA_2e2ca0ad"
+        },
+        {
+            "type": "java",
+            "name": "classes",
+            "request": "launch",
+            "mainClass": "OOPs.classes",
+            "projectName": "Java-DSA_2e2ca0ad"
+        },
+        {
+            "type": "java",
+            "name": "Sudoku",
+            "request": "launch",
+            "mainClass": "Sudoku",
+            "projectName": "Java-DSA_2e2ca0ad"
+        },
+        {
+            "type": "java",
+            "name": "Nqueen",
+            "request": "launch",
+            "mainClass": "Nqueen",
+            "projectName": "Java-DSA_2e2ca0ad"
+        },
+        {
+            "type": "java",
             "name": "Nqueen",
             "request": "launch",
             "mainClass": "Nqueen",

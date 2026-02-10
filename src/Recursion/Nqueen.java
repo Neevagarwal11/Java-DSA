@@ -4,9 +4,7 @@ public class Nqueen {
 
         int n =5;
         boolean[][] board = new boolean[n][n];
-
         System.out.println(queens(board, 0));
-
         
     }
 
@@ -23,7 +21,7 @@ public class Nqueen {
 
         for(int col = 0 ; col< board.length; col++){
 
-            // place queen if its safe
+            // place queen if its safeb
             if(isSafe(board , row ,  col)){
                 board[row][col] =true;
                 count += queens(board, row+1);
