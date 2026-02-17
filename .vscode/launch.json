@@ -9,6 +9,13 @@
             "name": "classesnObjects",
             "request": "launch",
             "mainClass": "OOPs.classesnObjects",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "classesnObjects",
+            "request": "launch",
+            "mainClass": "OOPs.classesnObjects",
             "projectName": "Java-DSA_2e2ca0ad"
         },
         {
