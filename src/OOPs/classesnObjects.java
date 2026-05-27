@@ -14,6 +14,7 @@ public class classesnObjects {
     static int a= 4;
     static int b;
 
+    //Will only run once when the 1st object is created
     static{
         System.out.println("Hello from Staitc block");
         b = 4*5;
