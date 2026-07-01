@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // there is no mulpile inheritance in java , it uses interfaces for fullfilling that need
+
         // Box box1 = new Box(4);
         // Box box = new Box(box1);
 

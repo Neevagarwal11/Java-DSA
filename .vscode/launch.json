@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BST",
+            "request": "launch",
+            "mainClass": "Trees.BST",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTree",
+            "request": "launch",
+            "mainClass": "Trees.BinaryTree",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "LL",
+            "request": "launch",
+            "mainClass": "LinkedList.LL",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LinkedList.Main",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "Enums",
+            "request": "launch",
+            "mainClass": "OOPs.Collections.Enums",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "OOPs.Collections.Main",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "OOPs.Cloning.Main",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "OOPs.ExceptionHandling.Main",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "lambdaFunctions",
+            "request": "launch",
+            "mainClass": "OOPs.Generics.lambdaFunctions",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "OOPs.Generics.Comparing.Main",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "CustomArrayGenerics",
+            "request": "launch",
+            "mainClass": "OOPs.Generics.CustomArrayGenerics",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "CustomArrayList",
+            "request": "launch",
+            "mainClass": "OOPs.Generics.CustomArrayList",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "OOPs.Interface.main",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "OOPs.Abstract_Classes.main",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "OOPs.Abstract_Demo.main",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "OOPs.Inheritance.Main",
