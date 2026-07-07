@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "StacksNQueue.main",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
+            "name": "Inbuilt",
+            "request": "launch",
+            "mainClass": "StacksNQueue.Inbuilt",
+            "projectName": "Java-DSA_30e514d2"
+        },
+        {
+            "type": "java",
             "name": "BST",
             "request": "launch",
             "mainClass": "Trees.BST",
